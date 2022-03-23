@@ -1,0 +1,154 @@
+                *,
+                 ::before,
+                 ::after {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                header h1 {
+                    color: rgb(0, 0, 0);
+                    font-size: 25px;
+                    text-align: center;
+                    border-bottom: 2px solid red;
+                    margin: auto;
+                    width: 400px;
+                }
+                
+                header {
+                    margin: 5em;
+                    height: 15vh;
+                }
+                
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: aliceblue;
+                }
+                
+                .container {
+                    width: 70%;
+                    max-width: 1100px;
+                    height: auto;
+                    margin: 0 auto;
+                }
+                
+                .containers {
+                    width: 70%;
+                    max-width: 1100px;
+                    height: auto;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .containers h1 {
+                    font-size: 19px;
+                }
+                
+                .containers p {
+                    font-size: 18px;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                
+                .liste-poke li {
+                    width: 250px;
+                    height: auto;
+                    padding: 15px;
+                    margin: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                .liste-poke img {
+                    width: 280px;
+                    height: 120px;
+                }
+                
+                .liste-poke h5 {
+                    font-size: 19px;
+                }
+                
+                .liste-poke p {
+                    font-size: 18px;
+                    border-bottom: 1px solid pink;
+                    width: 100%;
+                    text-align: center;
+                }
+                /* Anim loader */
+                
+                .loader {
+                    position: absolute;
+                    top: 250px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 200px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .point {
+                    margin: 0px 5px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background: #000000;
+                    animation: dindon 0.3s alternate infinite;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .point:nth-child(1) {
+                    animation-delay: 0.1s;
+                }
+                
+                .point:nth-child(2) {
+                    animation-delay: 0.2s;
+                }
+                
+                .point:nth-child(3) {
+                    animation-delay: 0.3s;
+                }
+                
+                .point:nth-child(4) {
+                    animation-delay: 0.4s;
+                }
+                
+                @keyframes dindon {
+                    100% {
+                        transform: translateY(-200px);
+                        color: rgba(142, 13, 146, 0.788);
+                    }
+                }
+                
+                .button {
+                    background-color: #2b3a2be1;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                
+                .postition {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }

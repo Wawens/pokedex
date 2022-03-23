@@ -1,0 +1,76 @@
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+.containers {
+    width: 450px;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#liste-poke {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(173, 43, 43, 0.15);
+    border-radius: 10px;
+}
+
+#liste-poke img {
+    width: 180px;
+    max-height: 200px;
+    margin: 20px auto;
+    position: relative;
+    left: 15%;
+}
+
+#liste-poke h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    margin: auto;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 45%;
+    color: #000000;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #2b3a2be1;
+    border: none;
+ position: relative;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#liste-poke a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
